@@ -1,0 +1,84 @@
+.contaner {
+  margin-top: 10rem;
+  margin-left: 20%;
+  margin-right: 10%;
+  max-width: 800px;
+}
+
+form {
+  flex-grow: 1;
+
+  display: flex;
+  flex-direction: column;
+
+  margin: 2rem;
+
+  button {
+    margin: 2rem 0 0;
+  }
+}
+
+pre {
+  flex-grow: 1;
+
+  padding: 1rem 2rem;
+  border-left: 1px solid gray;
+}
+
+@media (max-width: 800px) {
+  .container {
+    flex-direction: column;
+  }
+  .contaner {
+    margin-left: 8%;
+    margin-right: 8%;
+  }
+
+  pre {
+    border-left: none;
+    border-top: 1px solid gray;
+  }
+}
+
+.mat-dialog-actions {
+  display: contents;
+}
+.btn-secondary {
+  font-size: 17px;
+  white-space: nowrap;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  background-color: rgb(31, 52, 105);
+  border-radius: 50px;
+  border: solid 2px rgb(20, 141, 204);
+  padding: 15px 25px;
+  cursor: pointer;
+  align-items: center;
+  align-content: center;
+}
+.btn-secondary:hover {
+  transition: ease-in-out 0.4s;
+  background-color: rgb(20, 141, 204);
+  color: white;
+}
+
+.mat-form-field-label
+  .mat-form-field-label-wrapper
+  .mat-label
+  .mat-form-field-label-wrapper
+  .mat-label {
+  color: rgb(31, 52, 105);
+}
+
+.mat-icon {
+  color: rgb(31, 52, 105) !important;
+}
+
+input::placeholder {
+  color: rgb(20, 141, 204);
+}
+
+.mat-select .mat-select-value {
+  color: rgb(20, 141, 204);
+}

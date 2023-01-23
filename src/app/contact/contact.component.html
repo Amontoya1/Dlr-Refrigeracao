@@ -1,0 +1,26 @@
+<section class="contaner">
+    <h2>Olá, gostaria de solicitar um orçamento para o Serviço de Climatização.</h2>
+    <h2><mat-icon>location_on</mat-icon>Endereço: Manaus Centro Rua Dr. Alminio 185</h2>
+    <form [formGroup]="form" action="https://formsubmit.co/ec2c5669157f7f299697ac8d2fae3d76" method="POST" (ngSubmit)="onSubmit()" >
+        <mat-form-field appearance="standard">
+            <mat-label>Name</mat-label>
+            <input matInput maxlength="45" inputmode="tel" placeholder="Name" formControlName="name" #nameInput>
+
+        </mat-form-field>
+
+        <mat-form-field appearance="legacy">
+            <mat-label>Email:</mat-label>
+            <input matInput type="email" formControlName="email" placeholder="Email">
+            <mat-icon matSuffix>mail_outline</mat-icon>
+        </mat-form-field>
+
+        <mat-form-field appearance="standard">
+            <mat-label>Assunto:</mat-label>
+            <textarea matInput placeholder="Assunto" formControlName="message"></textarea>
+        </mat-form-field>
+
+        <div mat-dialog-actions >
+            <button class="btn-secondary"  [disabled]="!form.valid">Enviar</button>
+        </div>
+    </form>
+</section>

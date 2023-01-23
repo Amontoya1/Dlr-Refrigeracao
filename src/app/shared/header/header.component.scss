@@ -1,0 +1,158 @@
+
+
+.sidenav-link,
+.header-link {
+  cursor: pointer;
+}
+
+/* HEADER */
+
+.header-container {
+  border-top: solid 15px rgb(31, 52, 105);
+  background-color: rgb(233, 238, 242);
+  box-shadow: 0 -0.8rem 0.5rem 1rem rgb(0 0 0 / 7%);
+}
+
+.header-navigation {
+  .header-navigation-item {
+    color: rgb(31, 52, 105);
+    text-align: center;
+    margin: 0 35px;
+    font-size: 18px;
+    font-weight: 600;
+
+    .fa {
+      margin-right: 10px;
+    }
+
+  }
+
+  .header-login {
+    cursor: pointer;
+    color:  rgb(31, 52, 105);
+    margin: 0 35px;
+
+    .header-login-label {
+      padding-left: 5px;
+      top: 0.11rem;
+      position: relative;
+    }
+
+    .header-link-icon {
+      font-size: 17px;
+    }
+  }
+
+  .header-link {
+  
+
+    text-decoration: none;
+    outline: none;
+    color: inherit;
+    display: flex;
+    align-items: flex-end;
+
+    &:hover {
+      color:  rgb(20, 141, 204);
+    }
+  }
+}
+
+.borgir-menu-icon {
+  cursor: pointer;
+  font-size: 30px;
+  font-weight: 500;
+  color:rgb(31, 52, 105);
+  margin-right: 1rem;
+}
+
+.logo {
+  cursor: pointer;
+  width: 120px;
+
+}
+
+/* SIDENAV */
+
+.sidenav {
+  width: 220px;
+}
+
+.sidenav-header {
+  padding-left: 45px;
+  padding-top: 60px;
+  padding-bottom: 15px;
+  color: rgb(31, 52, 105);
+}
+
+.sidenav-body {
+
+  padding-left: 44.5px;
+  padding-top: 12px;
+
+  .fa {
+    margin-right: 10px;
+  }
+
+  .sidenav-navigation-item {
+    color: rgb(31, 52, 105);
+    padding-bottom: 3px;
+    font-weight: 500;
+  }
+
+  .sidenav-login {
+    color: rgb(31, 52, 105);
+    padding-top: 15px;
+
+    .sidenav-login-label {
+      padding-left: 5px;
+      top: 0.11rem;
+      position: relative;
+    }
+
+    .sidenav-link-icon {
+      font-size: 17px;
+    }
+  }
+
+  .sidenav-link {
+
+
+    text-decoration: none;
+    outline: none;
+    color: inherit;
+    display: flex;
+    align-items: flex-end;
+
+    &:hover {
+      color: rgb(20, 141, 204);
+    }
+  }
+}
+
+.sidenav-close-icon {
+
+
+  cursor: pointer;
+  float: left;
+  margin-left: 1.5rem;
+  margin-bottom:  1rem;
+  margin-top: 10px;
+  font-weight: 600;
+  color:  rgb(31, 52, 105);
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.btn-primary2:hover {
+  background-color: rgb(20, 141, 204);;
+  color: white;
+  transition: ease-in-out 0.4s;
+}
+.btn-primary2 a{
+  text-decoration: none;
+  color: rgb(31, 52, 105);
+  cursor: pointer;
+}
