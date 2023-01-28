@@ -1,68 +1,125 @@
 <mat-sidenav-container class="header-container">
-    <ng-container *ngTemplateOutlet="sidenavTemplate"></ng-container>
-    <div class="container d-flex justify-content-between align-items-center">
-      <img src="assets/img/LogoJr.svg" class="logo" alt="Logotipo Dlr">
-      
-      <div class="header-navigation d-none d-lg-flex align-items-end">
-        <p class="header-navigation-item">
-          <a mat-list class="header-link" (click)="onCallToActionHome()"  title="Instalações">
-            Instalações
-          </a>
-        </p>
-        <p class="header-navigation-item">
-          <a mat-list class="header-link" (click)="onCallToActionManutencao()"  title="Manutenção">
-            <i class="fa fa-snowflake-o" aria-hidden="true"></i>
-          Manutenção
-          </a>
-        </p>
-        <p class="header-navigation-item">
-          <a mat-list class="header-link" (click)="onCallToActionReparation()"   title="Reparação">
-            <i class="fa fa-wrench" aria-hidden="true"></i>
-            Reparação
-          </a>
-          <p class="header-navigation-item">
-          <a mat-list class="header-link"  (click)="onCallToActionContact()"  title="Contato">
-            <mat-icon matSuffix>mail_outline</mat-icon>Contato</a>
-        </p>
-      </div>
+  <ng-container *ngTemplateOutlet="sidenavTemplate"></ng-container>
+  <div class="container d-flex justify-content-between align-items-center">
+    <img src="assets/img/LogoJr.svg" class="logo" alt="Logotipo Dlr" />
 
-      <mat-icon *ngIf="isMobile" class="borgir-menu-icon" (click)="sidenav.toggle()" >menu</mat-icon>
+    <div class="header-navigation d-none d-lg-flex align-items-end">
+      <p class="header-navigation-item">
+        <a
+          mat-list
+          class="header-link"
+          (click)="onCallToActionHome()"
+          title="Instalações"
+        >
+          Instalações
+        </a>
+      </p>
+      <p class="header-navigation-item">
+        <a
+          mat-list
+          class="header-link"
+          (click)="onCallToActionManutencao()"
+          title="Manutenção"
+        >
+          <i class="fa fa-snowflake-o" aria-hidden="true"></i>
+          Manutenção
+        </a>
+      </p>
+      <p class="header-navigation-item">
+        <a
+          mat-list
+          class="header-link"
+          (click)="onCallToActionReparation()"
+          title="Reparação"
+        >
+          <i class="fa fa-wrench" aria-hidden="true"></i>
+          Reparação
+        </a>
+      </p>
+
+      <p class="header-navigation-item">
+        <a
+          mat-list
+          class="header-link"
+          (click)="onCallToActionContact()"
+          title="Contato"
+        >
+          <mat-icon matSuffix>mail_outline</mat-icon>Contato</a
+        >
+      </p>
     </div>
-  </mat-sidenav-container>
-  
-  
-  <!-- SideNav -->
-  <ng-template #sidenavTemplate>
-    <mat-sidenav #drawer class="sidenav" fixedInViewport [attr.role]="isMobile ? 'dialog' : 'navigation'"
-      [mode]="isMobile ? 'over' : 'side'"  [opened]="isMobile">
-      <mat-icon *ngIf="isMobile"  class="sidenav-close-icon" (click)="drawer.toggle()" >close</mat-icon>
-      <div class="sidenav-header">
-        <span class="section-title">Menu</span>
-      </div>
-      <div class="sidenav-body">
-        <p class="sidenav-navigation-item">
-          <a class="sidenav-link" (click)="drawer.toggle()" (click)="onCallToActionHome()"  title="Instalações">
-            <i class="fa fa-users" aria-hidden="true"></i>
-            Instalações
-          </a>
-        </p>
-        <p class="sidenav-navigation-item">
-          <a class="sidenav-link" (click)="drawer.toggle()"   (click)="onCallToActionManutencao()"  title="Manutenção">
-            <i class="fa fa-snowflake-o" aria-hidden="true"></i>
-            Manutenção
-          </a>
-        </p>
-        <p class="sidenav-navigation-item">
-          <a class="sidenav-link" (click)="drawer.toggle()" (click)="onCallToActionReparation()" 
-        title="Reparação">
-        <i class="fa fa-wrench" aria-hidden="true"></i>
-            Reparação
-          </a>
-        </p>
-        <p class="sidenav-navigation-item">
-          <a class="sidenav-link" (click)="drawer.toggle()"  (click)="onCallToActionContact()"  
-        title="Contato"><mat-icon matSuffix>mail_outline</mat-icon>Contato</a>
-        </p>
-      </div>
-    </mat-sidenav>
-  </ng-template>
+
+    <mat-icon
+      *ngIf="isMobile"
+      class="borgir-menu-icon"
+      (click)="sidenav.toggle()"
+      >menu</mat-icon
+    >
+  </div>
+</mat-sidenav-container>
+
+<!-- SideNav -->
+<ng-template #sidenavTemplate>
+  <mat-sidenav
+    #drawer
+    class="sidenav"
+    fixedInViewport
+    [attr.role]="isMobile ? 'dialog' : 'navigation'"
+    [mode]="isMobile ? 'over' : 'side'"
+    [opened]="isMobile"
+  >
+    <mat-icon
+      *ngIf="isMobile"
+      class="sidenav-close-icon"
+      (click)="drawer.toggle()"
+      >close</mat-icon
+    >
+    <div class="sidenav-header">
+      <span class="section-title">Menu</span>
+    </div>
+    <div class="sidenav-body">
+      <p class="sidenav-navigation-item">
+        <a
+          class="sidenav-link"
+          (click)="drawer.toggle()"
+          (click)="onCallToActionHome()"
+          title="Instalações"
+        >
+          <i class="fa fa-users" aria-hidden="true"></i>
+          Instalações
+        </a>
+      </p>
+      <p class="sidenav-navigation-item">
+        <a
+          class="sidenav-link"
+          (click)="drawer.toggle()"
+          (click)="onCallToActionManutencao()"
+          title="Manutenção"
+        >
+          <i class="fa fa-snowflake-o" aria-hidden="true"></i>
+          Manutenção
+        </a>
+      </p>
+      <p class="sidenav-navigation-item">
+        <a
+          class="sidenav-link"
+          (click)="drawer.toggle()"
+          (click)="onCallToActionReparation()"
+          title="Reparação"
+        >
+          <i class="fa fa-wrench" aria-hidden="true"></i>
+          Reparação
+        </a>
+      </p>
+      <p class="sidenav-navigation-item">
+        <a
+          class="sidenav-link"
+          (click)="drawer.toggle()"
+          (click)="onCallToActionContact()"
+          title="Contato"
+          ><mat-icon matSuffix>mail_outline</mat-icon>Contato</a
+        >
+      </p>
+    </div>
+  </mat-sidenav>
+</ng-template>

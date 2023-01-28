@@ -1,35 +1,29 @@
+<dlr-slider [items]="carouselData"></dlr-slider>
 
-      <dlr-slider [items]="carouselData"></dlr-slider>
-   
-      <div class="card">
-        <mat-card>
-          <mat-card-header>
-            <mat-card-subtitle>Manutenção</mat-card-subtitle>
-          </mat-card-header>
-          <mat-card-content>
-            <p>{{ longText }}</p>
-            <p>{{ longText2 }}</p>
-            <p>{{ longText3 }}</p>
-            <mat-divider></mat-divider>
-          </mat-card-content>
-          <mat-card-actions>
-            <div class="start-box">
-              <a
-              href="https://www.instagram.com/refrigerista.manaus"
-                target="_blank">
-              <button
-              class="btn-secondary"
-                
-              >
-                <i class="fa fa-instagram"></i>
-                Instagram
-              </button></a>
-              <a
-              href="https://api.whatsapp.com/send?phone=559284549908&text=Olá%20Vim%20atrav%C3%A9s%20da%20pagina%20%20Web%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es"
-                ><button class="btn-secondary">Entre em contato</button></a
-              >
-            </div>
-          </mat-card-actions>
-        </mat-card>
+<div class="card">
+  <mat-card>
+    <mat-card-header>
+      <mat-card-subtitle>Manutenção</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+      <p><strong>Preventiva:</strong>{{ longText }}</p>
+      <p><strong>Corretiva:</strong>{{ longText2 }}</p>
+      <p><strong>Preditiva:</strong>{{ longText3 }}</p>
+      <mat-divider></mat-divider>
+    </mat-card-content>
+    <mat-card-actions>
+      <div class="start-box">
+        <a href="https://www.instagram.com/refrigerista.manaus" target="_blank">
+          <button class="btn-secondary">
+            <i class="fa fa-instagram"></i>
+            Instagram
+          </button></a
+        >
+        <a
+          href="https://api.whatsapp.com/send?phone=559284549908&text=Olá%20Vim%20atrav%C3%A9s%20da%20pagina%20%20Web%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es"
+          ><button class="btn-secondary">Entre em contato</button></a
+        >
       </div>
-    
+    </mat-card-actions>
+  </mat-card>
+</div>

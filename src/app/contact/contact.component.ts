@@ -25,7 +25,7 @@ export class ContactComponent implements OnInit {
 
       // code necessary to send email to Junior via FormSubmit.co
       // documentation here: https://formsubmit.co/ajax-documentation
-      fetch('https://formsubmit.co/ajax/a.montoya1@hotmail.com', {
+      fetch('https://formsubmit.co/ajax/oscardelarosa7205@gmail.com', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -46,6 +46,10 @@ export class ContactComponent implements OnInit {
     }
   }
 
+
+  public onCallToActionGoogleMaps() {
+    
+  }
   resetAccount() {
     this.form.patchValue({
       name: '',

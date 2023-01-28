@@ -14,7 +14,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    background: rgba(0, 0, 0, 0.48);
+   
   }
 
   &__content {
@@ -97,6 +97,13 @@
 }
 
 @media screen and (max-width: 768px) {
+  .dsc-carousel {
+    margin-left: 10%;
+    margin-right: 5%;
+  }
+}
+
+@media screen and (max-width: 600px) {
   .dsc-carousel {
     margin-left: 5%;
     margin-right: 5%;
