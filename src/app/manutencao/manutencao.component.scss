@@ -69,3 +69,16 @@ mat-card-header {
     max-width: 700px;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .card {
+    width: 90%;
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+  }
+
+  .start-box {
+    flex-direction: column;
+    height: 150px;
+  }
+}

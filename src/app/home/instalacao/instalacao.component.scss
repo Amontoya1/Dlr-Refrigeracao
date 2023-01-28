@@ -10,7 +10,7 @@
   color: rgb(31, 52, 105);
   font-weight: 600;
   margin-left: 1%;
-  >p {
+  > p {
     display: flex;
     justify-content: space-around;
   }
@@ -71,5 +71,18 @@ mat-card-header {
     flex-direction: column;
     height: 150px;
     max-width: 700px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .card {
+    width: 90%;
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+  }
+
+  .start-box {
+    flex-direction: column;
+    height: 150px;
   }
 }
