@@ -9,7 +9,7 @@ export const CAROUSEL_DATA_ITEMS_HOME: ICarouselItem[] = [
     },
     subtitle: 'Instalação e Reparação',
     link: '/',
-    image: 'assets/img/I-3.jpg',
+    image: 'assets/img/Inst/I2.jpg',
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ export const CAROUSEL_DATA_ITEMS_HOME: ICarouselItem[] = [
     },
     subtitle: 'Instalação e Reparação',
     link: '/',
-    image: 'assets/img/I-2.jpg',
+    image: 'assets/img/Inst/I1.jpg',
   },
   {
     id: 3,
@@ -29,7 +29,7 @@ export const CAROUSEL_DATA_ITEMS_HOME: ICarouselItem[] = [
     },
     subtitle: 'Instalação e Reparação',
     link: '/',
-    image: 'assets/img/I-1.jpg',
+    image: 'assets/img/Inst/I3.jpg',
   },
   {
     id: 4,
@@ -39,7 +39,7 @@ export const CAROUSEL_DATA_ITEMS_HOME: ICarouselItem[] = [
     },
     subtitle: 'Instalação e Reparação',
     link: '/',
-    image: 'assets/img/I-4.jpg',
+    image: 'assets/img/Inst/I4.jpg',
   },
   {
     id: 5,
@@ -49,38 +49,8 @@ export const CAROUSEL_DATA_ITEMS_HOME: ICarouselItem[] = [
     },
     subtitle: 'Instalação e Reparação',
     link: '/',
-    image: 'assets/img/I-5.jpg',
-  },
-  {
-    id: 6,
-    title: {
-      first: 'TITULO',
-      second: 'Quinto',
-    },
-    subtitle: 'Instalação e Reparação',
-    link: '/',
-    image: 'assets/img/I-6.jpg',
-  },
-  {
-    id: 7,
-    title: {
-      first: 'TITULO',
-      second: 'Quinto',
-    },
-    subtitle: 'Instalação e Reparação',
-    link: '/',
-    image: 'assets/img/I-7.jpg',
-  },
-  {
-    id: 8,
-    title: {
-      first: 'TITULO',
-      second: 'Quinto',
-    },
-    subtitle: 'Instalação e Reparação',
-    link: '/',
-    image: 'assets/img/I-8.jpg',
-  },
+    image: 'assets/img/Inst/I5.jpg',
+  }
 ];
 
 export const CAROUSEL_DATA_ITEMS_MANU: ICarouselItem[] = [
@@ -92,7 +62,7 @@ export const CAROUSEL_DATA_ITEMS_MANU: ICarouselItem[] = [
     },
     subtitle: 'Instalação e Reparação',
     link: '/',
-    image: 'assets/img/M-8.jpg',
+    image: 'assets/img/Mtto/M1.jpg',
   },
   {
     id: 2,
@@ -102,7 +72,7 @@ export const CAROUSEL_DATA_ITEMS_MANU: ICarouselItem[] = [
     },
     subtitle: 'Instalação e Reparação',
     link: '/',
-    image: 'assets/img/M-2.jpg',
+    image: 'assets/img/Mtto/M2.jpg',
   },
   {
     id: 3,
@@ -112,7 +82,7 @@ export const CAROUSEL_DATA_ITEMS_MANU: ICarouselItem[] = [
     },
     subtitle: 'Instalação e Reparação',
     link: '/',
-    image: 'assets/img/M-3.jpg',
+    image: 'assets/img/Mtto/M3.jpg',
   },
   {
     id: 4,
@@ -122,7 +92,7 @@ export const CAROUSEL_DATA_ITEMS_MANU: ICarouselItem[] = [
     },
     subtitle: 'Instalação e Reparação',
     link: '/',
-    image: 'assets/img/M-4.jpg',
+    image: 'assets/img/Mtto/M4.jpg',
   },
   {
     id: 5,
@@ -132,38 +102,8 @@ export const CAROUSEL_DATA_ITEMS_MANU: ICarouselItem[] = [
     },
     subtitle: 'Instalação e Reparação',
     link: '/',
-    image: 'assets/img/M-7.jpg',
-  },
-  {
-    id: 5,
-    title: {
-      first: 'TITULO',
-      second: 'Quinto',
-    },
-    subtitle: 'Instalação e Reparação',
-    link: '/',
-    image: 'assets/img/M-1.jpg',
-  },
-  {
-    id: 6,
-    title: {
-      first: 'TITULO',
-      second: 'Quinto',
-    },
-    subtitle: 'Instalação e Reparação',
-    link: '/',
-    image: 'assets/img/M-9.jpg',
-  },
-  {
-    id: 7,
-    title: {
-      first: 'TITULO',
-      second: 'Quinto',
-    },
-    subtitle: 'Instalação e Reparação',
-    link: '/',
-    image: 'assets/img/I-4.jpg',
-  },
+    image: 'assets/img/Mtto/M5.jpg',
+  }
 ];
 
 export const CAROUSEL_DATA_ITEMS_REPA: ICarouselItem[] = [
@@ -175,7 +115,7 @@ export const CAROUSEL_DATA_ITEMS_REPA: ICarouselItem[] = [
     },
     subtitle: 'Instalação e Reparação',
     link: '/',
-    image: 'assets/img/R-1.jpg',
+    image: 'assets/img/Rep/R1.jpg',
   },
   {
     id: 2,
@@ -185,7 +125,7 @@ export const CAROUSEL_DATA_ITEMS_REPA: ICarouselItem[] = [
     },
     subtitle: 'Instalação e Reparação',
     link: '/',
-    image: 'assets/img/R-2.jpg',
+    image: 'assets/img/Rep/R2.jpg',
   },
   {
     id: 3,
@@ -195,7 +135,7 @@ export const CAROUSEL_DATA_ITEMS_REPA: ICarouselItem[] = [
     },
     subtitle: 'Instalação e Reparação',
     link: '/',
-    image: 'assets/img/R-3.jpg',
+    image: 'assets/img/Rep/R3.jpg',
   },
   {
     id: 4,
@@ -205,7 +145,7 @@ export const CAROUSEL_DATA_ITEMS_REPA: ICarouselItem[] = [
     },
     subtitle: 'Instalação e Reparação',
     link: '/',
-    image: 'assets/img/R-5.jpg',
+    image: 'assets/img/Rep/R4.jpg',
   },
   {
     id: 5,
@@ -215,26 +155,6 @@ export const CAROUSEL_DATA_ITEMS_REPA: ICarouselItem[] = [
     },
     subtitle: 'Instalação e Reparação',
     link: '/',
-    image: 'assets/img/R-6.jpg',
-  },
-  {
-    id: 6,
-    title: {
-      first: 'TITULO',
-      second: 'Quinto',
-    },
-    subtitle: 'Instalação e Reparação',
-    link: '/',
-    image: 'assets/img/R-7.jpg',
-  },
-  {
-    id: 7,
-    title: {
-      first: 'TITULO',
-      second: 'Quinto',
-    },
-    subtitle: 'Instalação e Reparação',
-    link: '/',
-    image: 'assets/img/R-8.jpg',
-  },
+    image: 'assets/img/Rep/R5.jpg',
+  }
 ];
